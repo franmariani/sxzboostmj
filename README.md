@@ -160,5 +160,5 @@ http://localhost:8080
 
 <p align="center">
   <b>© 2026 SXZBOOST · Buenos Aires, Argentina</b><br>
-  Desarrollado con 💻 y ☕ por <a href="https://github.com/franmariani">Tu Nombre</a>
+  Desarrollado con 💻 y ☕ por <a href="https://github.com/franmariani">FRANCO MARIANI</a>
 </p>
