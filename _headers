@@ -1,0 +1,44 @@
+# ============================================================
+# SXZBOOST - HTTP Security Headers
+# Cloudflare Pages Configuration
+# ============================================================
+# Estos headers protegen contra XSS, clickjacking, MIME sniffing,
+# y otros ataques comunes. NO ELIMINAR.
+# ============================================================
+
+/*
+  # Content Security Policy - Previene XSS y ejecución de código inline no autorizado
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.mercadopago.com https://www.paypal.com https://sdk.mercadopago.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.mercadopago.com https://*.paypal.com; frame-src https://www.mercadopago.com https://*.paypal.com; base-uri 'self'; form-action 'self' https://www.mercadopago.com https://*.paypal.com; upgrade-insecure-requests
+
+  # X-Frame-Options - Protege contra clickjacking
+  X-Frame-Options: DENY
+
+  # X-Content-Type-Options - Previene MIME sniffing
+  X-Content-Type-Options: nosniff
+
+  # Referrer-Policy - Controla información de referencia enviada
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Permissions-Policy - Restringe APIs del navegador
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(self), usb=(), magnetometer=(), gyroscope=(), accelerometer=()
+
+  # Strict-Transport-Security - Fuerza HTTPS (HSTS)
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+  # X-XSS-Protection - Protección adicional XSS (legacy browsers)
+  X-XSS-Protection: 1; mode=block
+
+  # Cross-Origin-Embedder-Policy
+  Cross-Origin-Embedder-Policy: require-corp
+
+  # Cross-Origin-Opener-Policy
+  Cross-Origin-Opener-Policy: same-origin
+
+  # Cross-Origin-Resource-Policy
+  Cross-Origin-Resource-Policy: cross-origin
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Cache-Control: public, max-age=2592000
