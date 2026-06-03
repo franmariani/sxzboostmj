@@ -152,13 +152,13 @@ http://localhost:8080
 
 ¿Te interesa mi trabajo o querés charlar sobre tecnología?
 
-- 💼 **LinkedIn**: [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)
-- 📧 **Email**: tuemail@ejemplo.com
-- 💬 **WhatsApp**: [+54 9 11 2398-1806](https://wa.me/5491123981806)
+- 💼 **LinkedIn**: [linkedin.com/in/franco-mariani01](https://linkedin.com/in/franco-mariani01)
+- 📧 **Email**: francoenriquebs@gmail.com
+- 💬 **WhatsApp**: [+54 9 11 3171-8772](https://wa.me/5491131718772)
 
 ---
 
 <p align="center">
   <b>© 2026 SXZBOOST · Buenos Aires, Argentina</b><br>
-  Desarrollado con 💻 y ☕ por <a href="https://github.com/tuusuario">Tu Nombre</a>
+  Desarrollado con 💻 y ☕ por <a href="https://github.com/franmariani">Tu Nombre</a>
 </p>
